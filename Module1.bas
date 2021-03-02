@@ -330,8 +330,6 @@ CreateFileCopy_Err:
     Resume CreateFileCopy_Exit
 End Function
 
-
-
 Function Log_Append(id As Integer, errs As String)
 'Function Log_Append(ByRef thisError As ErrObject) 'cant get this to work. err object being reset i think
 On Error GoTo Log_Append_Err
